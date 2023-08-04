@@ -1,0 +1,34 @@
+body{
+    font-family: sans-serif;
+    background: #151515;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.loading{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%) !important;
+}
+.precent{
+    color: #999;
+    font-size: 100px;
+    font-weight: 400;
+    text-align: center;
+}
+.progress-bar{
+    width: 406px;
+    height: 21px;
+    background: rgb(46, 45, 45);
+    border-radius: 13px;
+    padding: 3px;
+    box-sizing: border-box;
+}
+.progress{
+    width: 200px;
+    background: #ff523b;
+    height: 15px;
+    border-radius: 14px;
+}
